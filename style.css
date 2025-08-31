@@ -1,0 +1,42 @@
+body {
+  background: #3f5efb;
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  font-family: "Montserrat", sans-serif;
+}
+
+form {
+  margin: 40px;
+  display: grid;
+  font-family: "Montserrat", sans-serif;
+}
+
+input {
+  display: flex;
+  margin: 10px;
+  border-radius: 50px;
+  padding: 10px;
+  border: 2px solid rgb(222, 135, 205);
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px;
+  justify-items: center;
+  border: 1px solid #ccc;
+  background-color: rgb(255, 255, 255);
+  color: rgb(10, 7, 35);
+  font-family: "Montserrat", sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #3f5efb;
+  color: white;
+  border: 2px solid pink;
+}
